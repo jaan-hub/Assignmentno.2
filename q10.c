@@ -1,13 +1,13 @@
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     float a, b, c;
-
-    // Ask user for input
-    printf("Enter three sides of a triangle: ");
-    scanf("%f %f %f", &a, &b, &c);
-
-    // Check triangle validity using separate if...else if...else
+    printf("Enter first side of a triangle: ");
+    scanf("%f",&a);
+    printf("Enter second side of a triangle: ");
+    scanf("%f",&a);
+    printf("Enter third side of a triangle: ");
+    scanf("%f",&c);
     if (a + b <= c) {
         printf("The triangle is NOT valid.\n");
     } else if (a + c <= b) {
@@ -17,6 +17,5 @@ int main() {
     } else {
         printf("The triangle is valid.\n");
     }
-
     return 0;
 }
