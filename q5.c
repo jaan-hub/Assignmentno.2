@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n;
 
@@ -15,7 +14,7 @@ int main() {
         }
     } else {
         if (n % 7 == 0) {
-            printf("%d is divisible by 7 but\n", n);
+            printf("%d is divisible by 7 \n", n);
         } else {
             printf("%d is NOT divisible by 5 or 7.\n", n);
         }
