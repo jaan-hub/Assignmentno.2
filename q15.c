@@ -2,7 +2,7 @@
 int main()
 {
     float salary, tax;
-    printf("Enter annual basic salary: ");
+    printf("Enter annual basic salary of employee: ");
     scanf("%f", &salary);
     if (salary < 150000) {
         tax = 0;
