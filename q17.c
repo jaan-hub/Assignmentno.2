@@ -4,13 +4,11 @@ int main() {
     int qty1, qty2, qty3;
     float rate1, rate2, rate3;
     float amt1, amt2, amt3, total, discount, finalamt;
-    printf("enter quantity and rate for product 1: ");
+    printf("enter quantity and rate for item 1:");
     scanf("%d %f", &qty1, &rate1);
-
-    printf("enter quantity and rate for product 2: ");
+    printf("enter quantity and rate for item 2:");
     scanf("%d %f", &qty2, &rate2);
-
-    printf("enter quantity and rate for product 3: ");
+    printf("enter quantity and rate for item 3:");
     scanf("%d %f", &qty3, &rate3);
 
     amt1 = qty1 * rate1;

@@ -1,8 +1,9 @@
 #include <stdio.h>
-int main() {
+int main()
+{
     int n;
 
-    printf("Enter a n: ");
+    printf("Enter a number:");
     scanf("%d", &n);
     if (n % 5 == 0) {
         if (n % 7 == 0) {
@@ -19,6 +20,5 @@ int main() {
             printf("%d is NOT divisible by 5 or 7.\n", n);
         }
     }
-
     return 0;
 }
